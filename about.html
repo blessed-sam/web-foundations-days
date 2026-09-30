@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickNotes</title>
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About QuickNotes</h2>
+        <p>
+          QuickNotes is a simple web application that allows you to quickly
+          write down your ideas and track them. It was built as part of the Web
+          Foundations course to help learners practice HTML, CSS, and
+          JavaScript.
+        </p>
+      </section>
+      <section>
+        <h2>How to Use QuickNotes</h2>
+        <ol>
+          <li>Add new notes</li>
+          <li>View your existing notes</li>
+          <li>Keep your ideas organized</li>
+        </ol>
+      </section>
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>Simple and intuitive interface</li>
+          <li>Responsive design</li>
+          <li>Local storage for note persistence</li>
+        </ul>
+      </section>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Keyboard Shortcuts</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>Enter</kbd></td>
+              <td>Add a new note</td>
+            </tr>
+            <tr>
+              <td><kbd>Ctrl</kbd> + <kbd>Delete</kbd></td>
+              <td>Delete the current note</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <form id="form">
+          <label for="text">text:</label>
+          <input type="text" id="text" name="text" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="textarea">textarea</label>
+          <textarea id="textarea" name="textarea" required></textarea>
+
+          <label for="submit">Submit</label>
+          <input type="submit" id="submit" name="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
