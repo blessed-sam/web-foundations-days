@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fbf2f2;
+}
+
+header {
+  background-color: #f8b6b6;
+  padding: 20px;
+  text-align: center;
+  color: aqua;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: auto;
+  max-width: 800px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  color: rgb(247, 151, 26);
+  text-decoration: underline;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+}
+button {
+  transition: 0.3s;
+  padding: 10px;
+}
+button:hover {
+  transform: translateY(-2px);
+}
+
+footer {
+  padding: 10px 0px 20px 10px;
+  background-color: #f8b6b6;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 28px;
+  }
+}
