@@ -1,0 +1,7 @@
+# Day 8: Course Reflection
+
+The most difficult concept in this course was understanding how backend systems maintain correctness while processing concurrent requests. Initially, I thought checking whether a resource was available before using it was sufficient. I learned that two requests can check the same resource almost simultaneously and both receive an available result. I overcame this difficulty by studying database transactions, conditional updates, primary keys, foreign keys, and unique constraints, then applying these concepts to TicketHub's seat-reservation problem. This helped me understand why correctness must be enforced by the database rather than depending only on frontend checks.
+
+Based on the feedback and lessons from my capstone project, I would improve the architecture and API documentation. I would define clearer frontend-backend contracts, document request and response formats, specify error handling, and explain how the application behaves when a service fails. I would also strengthen the documentation of database relationships, security, and deployment so that other developers could understand and integrate with the system more easily.
+
+Next, I want to learn how to implement and deploy a complete backend using PostgreSQL, REST APIs, authentication, and automated testing. After that, I want to explore Docker, cloud deployment, monitoring, and load testing. My goal is to move beyond designing systems on paper and develop the practical skills needed to build, test, and maintain reliable applications that can scale to many users.
